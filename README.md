@@ -1,34 +1,27 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Dynamic Tables
 
-## Getting Started
+Dynamic Tables is a user-friendly, cloud-based web application designed for custom and flexible data management. Users can create tailored tables, dynamically add rows, columns, or values, and conveniently organize data across multiple sheets.
 
-First, run the development server:
+## Overview
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-```
+The main goal of Dynamic Tables is to provide a versatile and intuitive platform for users to manage their data. Users have the ability to create and customize tables, with the added flexibility of dynamically adding rows, columns, or values. Additionally, data can be conveniently organized across multiple sheets, promoting effective data management and organization.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Requirements
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+This project requires [pnpm](https://pnpm.io/) - a fast, disk space efficient package manager. If you do not have pnpm installed, you can do so by running `npm install -g pnpm`.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+## Installation
 
-## Learn More
+Once you've made sure you have pnpm installed, clone the repository and navigate into the directory. Then, run the following command to install the necessary dependencies:
 
-To learn more about Next.js, take a look at the following resources:
+> pnpm install
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+This will install all the required packages and libraries needed to run this project.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+## Development 
 
-## Deploy on Vercel
+To start the development server, use the following command:
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+> pnpm run dev
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+This will start the server, and you should be able to view the project in your local development environment.
